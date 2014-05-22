@@ -1,4 +1,4 @@
-url-rewriter
+URL Rewriter
 ============
 
 Chrome extension that edits URLs according to a custom regular expression when accessing a web page. Based on "Host name rewriter" by Mattias Lundberg.
