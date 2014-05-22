@@ -1,0 +1,72 @@
+/* Make input fields nicer */
+input[type="text"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input[type="text"]:hover {
+	border: 1px solid #5ad;
+}
+
+input[type="text"]:focus {
+	box-shadow: 0 0 2px #FFFE00;
+}
+
+/* Make buttons nicer */
+button {
+	font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', arial, sans-serif;
+	font-size: 12px;
+	padding: 5px 15px;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px #ddd;
+	color: #000000;
+	background: linear-gradient(#eee, #ccc);
+}
+
+button:hover {
+	border: 1px solid #888;
+}
+
+button:active {
+	background: linear-gradient(#ccc, #ddd);
+}
+
+button.red {
+	border: 1px solid #a66;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px #ddd;
+	text-shadow: 0 1px 2px black;
+	color: white;
+	background: linear-gradient(#f88, #c66);
+}
+
+button.red:hover {
+	border: 1px solid #900;
+}
+
+button.red:active {
+	background: linear-gradient(#c66, #f88);
+}
+
+button.green {
+	border: 1px solid #080;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px #ddd;
+	text-shadow: 0 1px 2px black;
+	color: white;
+	background: linear-gradient(#7d7, #383);
+}
+
+button.green:hover {
+	border: 1px solid #050;
+}
+
+button.green:active {
+background: linear-gradient(#383, #7d7);
+}
+
+.control {
+	margin-left: 10px;
+}

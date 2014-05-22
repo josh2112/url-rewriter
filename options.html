@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Rewriter extension options</title>
+	<link rel="stylesheet" type="text/css" href="css/shared.css">
+	<link rel="stylesheet" type="text/css" href="css/options.css">
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="options.js"></script>
+</head>
+<body>
+	<div id="message">&nbsp;</div>
+	
+	<div class="title">
+		<img src="../images/icon64.png"/>
+		<h1>URL Rewriter extension options</h1>
+	</div>
+	
+	
+	<hr/>
+
+	<div>
+		<h2>Test</h2>
+		<table>
+			<tr>
+				<td class="formLabelCell">URL</td>
+				<td><input type="text" class="tableTextBox" id="testInputText"/></span></td>
+			</tr>
+			<tr>
+				<td class="formLabelCell">Rewrites to</td>
+				<td><input type="text" class="tableTextBox" id="testOutputText" readonly/></span></td>
+			</tr>
+		</table>
+	</div><br>
+	<hr/>
+	
+	<div id="rewriteDefContainer">
+		<h2>Rewrites</h2>
+		<div id="rewriteDefTemplate" class="rewriteDef">
+			If URL matches
+			<input type="text" class="inlineTextBox" name="regexText"/>,<br/>
+			replace text in group number
+			<input type="number" min="0" max="99" class="inlineTextBox" name="groupNumText"/>
+			with
+			<input type="text" class="inlineTextBox" name="replacementText"/>.
+			<button name="removeBtn" class="removeBtn red">X</button>
+			<hr style="margin-top: 20px;"/>
+		</div>
+	</div>
+		
+	<button id="addBtn">Add another rewrite</button>
+	<button id="saveBtn">Save</button>
+</body>
+</html>
