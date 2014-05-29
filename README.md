@@ -9,5 +9,7 @@ Example:
  - Regex: ^(http[s]+\:\/\/.*\.)(toothboiler)(\..*\/watch\?v=.*)$
  - Group number to replace: 2
  - Replacement text: youtube
-
  - If you click a link for "http://www.toothboiler.com/watch?v=abcdefg", it matches the regex rule and capture group 2 ("toothboiler") is replaced with "youtube" to result in "http://www.youtube.com/watch?v=abcdefg".
+
+URL Rewriter on Chrome Web Store:
+https://chrome.google.com/webstore/detail/url-rewriter/gpbblpbcnjdnnjdcdclojoonfmpoionh
