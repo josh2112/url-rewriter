@@ -3,7 +3,7 @@
 	
 	"name": "URL Rewriter",
 	"author": "Joshua Foster",
-	"version": "0.1",
+	"version": "0.11",
 	"description": "Rewrite URLs according to a custom regex when accessing a web page.",
 	
 	"icons": {
