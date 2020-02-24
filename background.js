@@ -35,7 +35,7 @@ function showOptionsPage() {
    });
 }
 
-chrome.webNavigation.onBeforeNavigate.addListener(renavigate);
+chrome.webNavigation.onCommitted.addListener(renavigate);
 
 chrome.browserAction.onClicked.addListener( function( tab ) {
 	showOptionsPage();
